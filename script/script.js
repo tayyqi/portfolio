@@ -7,3 +7,8 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  window.onload = function () {
+    var el = document.getElementsByClassName("card");
+    el.onclick = href;
+}
