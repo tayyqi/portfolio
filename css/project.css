@@ -1,7 +1,7 @@
 :root{
     --main-col1: #363636;
     --main-col2: #797979;
-    --hl-col1:#ab8fd8;
+    --hl-col1:#6435af;
 }
 
 *{
@@ -12,10 +12,15 @@
     list-style: none;
 }
 
+html { 
+    scroll-behavior: smooth; 
+} 
+
 h1{
     font-family: 'Montserrat', sans-serif;
 	color: var(--main-col1);
     font-weight: 600;
+    font-size: 25pt;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 20px;
