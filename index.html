@@ -1,9 +1,142 @@
 <!DOCTYPE html>
 <html>
-    <body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tay Ying Qi | Portfolio</title>
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/project.css">
+        
+        <!-- GoogleFont -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-        <h1>YQ's portfolio</h1>
-        <p>Building in progress!</p>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <script src="script/script.js"></script>
+
+        <!-- NavBar -->
+        <div class="topnav" id="myTopnav">
+            <h1 id="name">TAY YING QI</h1>
+            <a href="#resume">Resume</a>
+            <a class="active" href="#portfolio">Portfolio</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>       
+
+        <main>
+
+            <section id="about" class="container">
+                <div class="profile">
+                    <img width="300px" class="imageAbout" src="images/portrait.jpg">
+                </div>
+                <div class="about">
+                    <h1>Hi, I'm Ying Qi</h1>
+
+                    <p> I enjoy designing in digital spaces and find satisfaction in simplifying processes to make products more useful and valuable.
+                        I also enjoy exploring the intersection between design and emerging technologies.
+                    </p>
+                    <br><br>
+                    <p>My interests in design include UX/UI Design, Service Design, Systems Design and Interaction Design.
+                    </p>
+                </div>
+            </section>
+               
+            <!-- portfolio section-->
+            <section class="portfolio" id="portfolio">
+                <h1 style= "text-align: center">Design Portfolio</h1>
+            
+                <div class="project-gallery">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('images/slate.jpg');"></div>
+                        <div class="card-overlay" id="slate">
+                            <p class="proj-type">Thesis Project</p>
+                            <h1>SLATE: Reducing bedtime procrastination</h1>
+                            <p>Service Design, UI/UX, Behavioural Design</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('images/MICE2025.jpg');"></div>
+                        <div class="card-overlay" id="mice">
+                            <p class="proj-type">Platform Project</p>
+                            <h1>MICE Tradeshows in 2025</h1>
+                            <p>Service Design, Systems Design, Future of MICE</p>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('images/capaCITY.jpg');"></div>
+                        <div class="card-overlay" id="capacity">
+                            <p class="proj-type">Coursework</p>
+                            <h1>capaCITY</h1>
+                            <p>UI/UX, App development, Crowd Levels</p>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('images/Safetravelreqswidget.jpg');"></div>
+                        <div class="card-overlay" id="stwidget">
+                            <p class="proj-type">Internship</p>
+                            <h1>Safe Travel Requirements Widget</h1>
+                            <p>Visitor Journey, UI/UX, System Architecture</p>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('images/VSA_redesign.png');"></div>
+                        <div class="card-overlay" id="vsa">
+                            <p class="proj-type">Internship</p>
+                            <h1>Redesign of Visit Singapore App</h1>
+                            <p>UI/UX, Visitor Journey</p>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('images/Tactylar.jpg');"></div>
+                        <div class="card-overlay" id="tactylar">
+                            <p class="proj-type">Platform Project</p>
+                            <h1>Tactylar</h1>
+                            <p>Haptics, Material Exploration, Interaction Design</p>
+                        </div>
+                    </div>
+            
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('images/AiryPocket.jpg');"></div>
+                        <div class="card-overlay" id="airypocket">
+                            <p class="proj-type">Platform Project</p>
+                            <h1>Airy Pocket</h1>
+                            <p>Packaging Design, Material Exploration, Sustainability</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('images/hexara.jpg');"></div>
+                        <div class="card-overlay" id="hexara">
+                            <p class="proj-type">Solo Project</p>
+                            <h1>HEXARA</h1>
+                            <p>Origami, Generative Design, Parametric Design</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('images/innisfree.jpg');"></div>
+                        <div class="card-overlay" id="innisfree">
+                            <p class="proj-type">Platform Project</p>
+                            <h1>FEEL: an Innisfree Experience</h1>
+                            <p>Projection Mapping, Brand Experience</p>
+                        </div>
+                    </div>
+            
+                </div>
+            </section>
+
+    
+        </main>
+        
 
     </body>
 </html>
