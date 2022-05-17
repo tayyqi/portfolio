@@ -36,28 +36,35 @@ body{
 }
 
 .portfolio {
-    width: 100%;
+    max-width: 2000px;;
     margin: 0.5%;
     margin-left: 2%;
     margin-right: 2%;
     padding: 1%;
 }
 
-.project-gallery {
-    width: 100%;
-    margin-top: 2%;
-    padding-left: 2%;
+/* project gallery */
+.l-wrap {
+    max-width: 1440px;
+    /* margin-right: auto;
+    margin-left: auto; */
     animation-name: fadeIn;
 	animation-duration: 1.5s;
 	animation-timing-function: ease;
-    align-self: center;
+}
+.grid-item {
+    width: calc((100% - 18px * 3) / 3);
+    margin-top: 18px;
+    margin-left: 9px;
+    margin-right: 9px;
+    float: left;
 }
 
 .card {
     width: min(90%, 430px);
     height: 300px;
-    display:inline-block;
-    margin: 10px;
+    display: flex;
+    /* margin: 10px; */
     position: relative;
     cursor: pointer;
 }
