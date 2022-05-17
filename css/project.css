@@ -52,7 +52,8 @@ p{
     /* padding-left: 5%; */
     padding-top: 1%;
     font-family: 'Montserrat', sans-serif;
-    color: var(--main-col1);
+    font-size: 22pt;
+    color: var(--main-col2);
     margin: 0;
     cursor: pointer;
 }

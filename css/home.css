@@ -9,6 +9,9 @@ body{
     object-position: 50% 15%;
     border-radius: 50%;
 }
+.container {
+    align-items: baseline;
+}
 
 .profile {
     display: inline-block;

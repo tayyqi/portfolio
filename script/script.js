@@ -8,7 +8,3 @@ function myFunction() {
     }
   }
 
-  window.onload = function () {
-    var el = document.getElementsByClassName("card");
-    el.onclick = href;
-}
